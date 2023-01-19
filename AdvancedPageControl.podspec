@@ -32,6 +32,10 @@ TA simple yet powerful page control indicator animations library.
 
   s.source_files = 'AdvancedPageControl/Classes/**/*'
   s.swift_versions = '4.0', '5.0'
+  s.libraries = "swiftCoreGraphics"
+  s.xcconfig = {
+    "LIBRARY_SEARCH_PATHS": "$(SDKROOT)/usr/lib/swift"
+  }
   # s.resource_bundles = {
   #   'AdvancedPageControl' => ['AdvancedPageControl/Assets/*.png']
   # }
